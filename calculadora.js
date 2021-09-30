@@ -40,7 +40,6 @@ const selecionarOperador = (evento) => {
     }
 }
 
-
 operadores.forEach (operador => operador.addEventListener('click', selecionarOperador));
 
 const ativarIgual = () => {
